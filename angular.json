@@ -39,7 +39,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pokedex",
+            "outputPath": "docs/pokedex",
+            "baseHref": "https://cpereiraleonardo.github.io/pokedex/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
