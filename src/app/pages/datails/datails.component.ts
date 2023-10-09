@@ -25,7 +25,7 @@ export class DatailsComponent implements OnInit {
     this.getPokemon;
   }
 
- public get getPokemon() {
+  public get getPokemon() {
     const id: string = this.activatedRoute.snapshot.params['id'];
     const pokemon: Observable<any> = this.pokeApiService.apiGetPokemons(`${this.urlPokemon}/${id}`);
     const pokemonName: Observable<any> = this.pokeApiService.apiGetPokemons(`${this.urlName}/${id}`);
