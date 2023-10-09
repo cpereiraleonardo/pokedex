@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 //Componentes
 import { HomeComponent } from './home/home.component';
-import { DatailsComponent } from './datails/datails.component';
+import { DetailsComponent } from './details/details.component';
 
 const routes: Routes = [
   {
@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'details/:id',
-    component: DatailsComponent
+    component: DetailsComponent
   }
 ];
 

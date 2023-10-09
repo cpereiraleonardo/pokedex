@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 //Pages
 import { HomeComponent } from './home/home.component';
-import { DatailsComponent } from './datails/datails.component';
+import { DetailsComponent } from './details/details.component';
 
 //Routing Module
 import { RoutingModule } from './routing.module';
@@ -12,7 +12,7 @@ import { SharedModule } from "../shared/shared.module";
 @NgModule({
     declarations: [
         HomeComponent,
-        DatailsComponent
+        DetailsComponent
     ],
     imports: [
         CommonModule,

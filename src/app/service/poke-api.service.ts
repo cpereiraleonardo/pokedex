@@ -13,7 +13,7 @@ export class PokeApiService {
   private pokemons: Observable<any> = this.http.get<any>(this.url);
   constructor(private http: HttpClient) { }
 
-  get apiListAllPokemons(): Observable<any> {
+  public get apiListAllPokemons(): Observable<any> {
     return this.pokemons.pipe(
       tap(res => res), //Mapeando Pokemons
       tap(res => {
